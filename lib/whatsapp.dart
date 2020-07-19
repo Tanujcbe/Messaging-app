@@ -46,7 +46,9 @@ class WhatsAppPageState extends State<WhatsAppPage> with SingleTickerProviderSta
           ]
         ),
       ),
-      body: new Scaffold()
+      body: new Scaffold(
+        backgroundColor: Colors.grey[50]
+      )
     );
   }
 }
