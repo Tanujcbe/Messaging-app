@@ -64,6 +64,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.3"
+<<<<<<< HEAD
   firebase:
     dependency: transitive
     description:
@@ -113,6 +114,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.1+2"
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
   flutter:
     dependency: "direct main"
     description: flutter
@@ -123,6 +126,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -142,6 +146,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.4"
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
   image:
     dependency: transitive
     description:
@@ -149,6 +155,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.4"
+<<<<<<< HEAD
   js:
     dependency: transitive
     description:
@@ -156,6 +163,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.2"
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
   matcher:
     dependency: transitive
     description:
@@ -191,6 +200,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.0"
+<<<<<<< HEAD
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -198,6 +208,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
   quiver:
     dependency: transitive
     description:
@@ -274,5 +286,9 @@ packages:
     source: hosted
     version: "3.5.0"
 sdks:
+<<<<<<< HEAD
   dart: ">=2.7.0 <3.0.0"
   flutter: ">=1.12.13+hotfix.4 <2.0.0"
+=======
+  dart: ">=2.4.0 <3.0.0"
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983

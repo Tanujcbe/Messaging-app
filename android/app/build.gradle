@@ -22,7 +22,10 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
+<<<<<<< HEAD
 apply plugin: 'com.google.gms.google-services'
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
@@ -65,5 +68,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+<<<<<<< HEAD
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
 }

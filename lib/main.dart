@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/animation.dart';
+<<<<<<< HEAD
 import 'package:login/fold/User.dart';
 import 'package:login/signup.dart';
 import 'package:login/whatsapp.dart';
 import 'package:async/async.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+=======
+import 'package:login/signup.dart';
+import 'package:async/async.dart';
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -31,8 +36,12 @@ class LoginPage extends StatefulWidget{
 class LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixin{
   AnimationController _iconAnimationController;
   Animation<double> _iconAnimation;
+<<<<<<< HEAD
   String _email,_passwd;
   final GlobalKey<FormState> _formkey= GlobalKey<FormState>();
+=======
+  
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
   @override
   void initState(){
     super.initState();
@@ -64,7 +73,10 @@ class LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixi
                 size: _iconAnimation.value*100,
               ),
               new Form(
+<<<<<<< HEAD
                   key: _formkey,
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
                   child: Theme(
                     data: new ThemeData(
                       // brightness: Brightness.dark,
@@ -86,16 +98,27 @@ class LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixi
                               hintText: "UserName"
                             ),
                           keyboardType: TextInputType.emailAddress,
+<<<<<<< HEAD
                           onSaved: (input)=>_email=input,
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
                       ),
                        new TextFormField(
                             decoration:new InputDecoration(
                               labelText: "Password",
+<<<<<<< HEAD
                               hintText: "********"                           
                             ),
                           keyboardType: TextInputType.text,
                           obscureText: true,
                           onSaved: (input)=>_passwd=input,
+=======
+                              hintText: "********"
+                              
+                            ),
+                          keyboardType: TextInputType.text,
+                          obscureText: true,
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
                         ),
                         SizedBox(height: 50),
                           Row(
@@ -104,6 +127,7 @@ class LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixi
                                 color: Colors.blueGrey,
                                 onPressed:(){
                                   debugPrint("Login");
+<<<<<<< HEAD
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
@@ -112,6 +136,8 @@ class LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixi
                                      }
                                     )
                                   );
+=======
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
                                 },
                                 child: new Text(
                                   "Login"
@@ -147,6 +173,7 @@ class LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixi
         ],
       ),
     );
+<<<<<<< HEAD
   }  
 }
 
@@ -176,3 +203,8 @@ class Authservice{
     }
   }
 }
+=======
+  }
+}
+
+>>>>>>> 31096ccfe98a9d62c493cb6d9ee8c724a2bc1983
